@@ -1,0 +1,10 @@
+interval = 60 // interval in second.
+lastTime = GETTIME() // For first loop.
+WHILE !GETKEYSTATE(VK_ESC) // ESC key to exit the loop.
+ now = GETTIME()
+ IFB (now - lastTime) >= interval
+     // Press "S" key.
+  lastTime = GETTIME() 
+ ENDIF
+ SLEEP(1) // Wait 1 sec.
+WEND

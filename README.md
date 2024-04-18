@@ -95,7 +95,7 @@ project1
 
 Calculate/visualize feeding behavior parameters from the image analysis results using R package `feedingMarkAnalyzeR`. 
 
-See [vignette](docs/feedingMarkAnalyzeR.html) in the package for usage.   
+See [feedingMarkAnalyzeR repository](https://github.com/nsotta/feedingMarkAnalyzeR) for usage.   
 
 
 
